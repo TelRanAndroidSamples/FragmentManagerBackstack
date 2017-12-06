@@ -107,8 +107,8 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
     }
 
     public void popAddB(View v){
-        manager.popBackStack("addB",FragmentManager.POP_BACK_STACK_INCLUSIVE);
-//        manager.popBackStack("addB",0);
+//        manager.popBackStack("addB",FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        manager.popBackStack("addB",0);
     }
 
     @Override
