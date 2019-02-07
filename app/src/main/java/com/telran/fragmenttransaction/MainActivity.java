@@ -2,8 +2,9 @@ package com.telran.fragmenttransaction;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -107,6 +108,7 @@ public class MainActivity extends AppCompatActivity implements FragmentManager.O
     }
 
     public void popAddB(View v){
+
 //        manager.popBackStack("addB",FragmentManager.POP_BACK_STACK_INCLUSIVE);
         manager.popBackStack("addB",0);
     }
